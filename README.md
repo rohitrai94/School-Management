@@ -1,8 +1,21 @@
-# React + Vite
+# School Management API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Node.js-based RESTful API for managing school data. It provides functionality to add new schools and retrieve a list of schools sorted by proximity to a specified location.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Add new schools with details like name, address, latitude, and longitude.
+- Retrieve a list of all schools sorted by their distance from a user-provided location.
+- Built using Node.js, Express.js, and MySQL.
+- Backend optimized for easy deployment and scalability.
+
+---
+
+## Requirements
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [MySQL](https://www.mysql.com/)
+- Postman (or any API testing tool)
+
